@@ -1,1 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
+h1
+  color: red
+
+.animate
+  -webkit-animation-direction: 3s
+  animation-duration: 3s
+  -webkit-animation-fill-mode: bath
+  animation-fill-mode: bath
+
+// @media (prefers-reduced-motion)
+//   .animate
+//     -webkit-animation-direction: unset  !important
+//     animation-duration: unset !important
+//     -webkit-animation-fill-mode: none !important
+//     animation-fill-mode: none !important
+
+@-webkit-keyframes fadeIn
+  from
+    opacity: 0
+    to
+    opacity: 1
+
+@keyframes fadeIn
+  from
+    opacity: 0
+  to
+    opacity: 1
+
+.fadeIn
+  -webkit-animation-name: fadeIn
+   animation-duration: fadeIn

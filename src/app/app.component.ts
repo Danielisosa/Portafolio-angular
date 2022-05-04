@@ -1,10 +1,13 @@
 import { Component } from '@angular/core';
+import { InfoPaginaService } from './services/info-pagina.service';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.sass']
+  styleUrls: ['./app.component.sass'],
 })
 export class AppComponent {
-  title = 'portafolioOrku';
+  constructor(public infoPaginaService: InfoPaginaService) {
+    //leer el archivo json
+  }
 }
