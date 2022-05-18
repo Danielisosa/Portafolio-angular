@@ -1,4 +1,7 @@
-# PortafolioOrku
+# Mi primera practica con Angular
+En esta practica converti una plantilla de html en una webApp Portafolio de angular, creando los componentes, servicios, rutas, obteniendo los datos de una base de datos en Firebase y realice un filtrado de busquedas para los productos 
+
+# Portafolio
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.4.
 
